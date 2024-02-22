@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 
 html,
@@ -7,6 +8,9 @@ body {
     padding: 0;
     margin: 0;
     border: 3px solid #DFBF99;
+    font-family: "Namdhinggo", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
@@ -44,6 +48,12 @@ nav {
     order: -1;
 }
 
+header {
+    font-weight: 800;
+    font-style: normal;
+}
+
+
 header,
 footer {
     flex: 0 0 5em;
@@ -68,6 +78,7 @@ footer {
 footer {
     text-align: center;
     border-top: 3px solid #DFBF99;
+    max-height: 5%;
 }
 
 h1 {
@@ -145,6 +156,9 @@ td {
 
 th {
     border-bottom: 1px solid #d4c2b7;
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 td:first-child {
