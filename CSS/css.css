@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    border: 3px solid #DFBF99;
+}
+
+
+body {
+    background-color: #FFF5E9;
+    font-size: 1.1em;
+    /* padding: 4px; */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    /* background-color: #319191; */
+    flex: 2 2 12em;
+    /* padding: 4px; */
+}
+
+.my-hobby {
+    color: #968571;
+    padding-left: 10px;
+}
+
+aside {
+    flex: .8;
+    background-color: #F6ECE6;
+    border-left: 2px solid #DFBF99;
+}
+
+nav {
+    order: -1;
+}
+
+header,
+footer {
+    flex: 0 0 5em;
+    background-color: #FEDDB6;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+
+    body {
+        min-height: 100vh;
+    }
+
+    main {
+        flex-direction: row;
+        min-height: 100%;
+        flex: 1 1 auto;
+    }
+}
+
+footer {
+    text-align: center;
+    border-top: 3px solid #DFBF99;
+}
+
+h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.header {
+    margin: 0;
+    transform: translateY(-20px);
+}
+
+.hobby {
+    padding-left: 10px;
+    margin: 10px;
+    color: #968571;
+}
+
+#nav {
+    background-color: #FFE3C1;
+    border-top: 3px solid #DFBF99;
+    border-bottom: 3px solid #DFBF99;
+}
+
+#nav li {
+    float: left;
+    list-style: none;
+}
+
+#nav a {
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-left: 3px solid #DFBF99;
+    color: #857665;
+    transition: transform 0.5s ease;
+    /* 
+    transition-property: width, font-weight;
+    transition-duration: 5s, 5s; */
+}
+
+#nav li:first-child a {
+    border-left: none;
+    color: #857665;
+}
+
+#nav a:hover {
+    font-weight: bold;
+    color: #857665;
+    /* width: 130px; */
+    transform: scale(1.1);
+    /* height: 50px; */
+    /* transform: translateY(5px); */
+}
+
+#nav:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+table {
+    transform: translateY(40px);
+    margin: 10px;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    color: #968c86;
+}
+
+td {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+th {
+    border-bottom: 1px solid #d4c2b7;
+}
+
+td:first-child {
+    padding-right: 5px;
+    border-right: 1px solid #d4c2b7;
+}

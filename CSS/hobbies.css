@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    /* border: 3px solid #DFBF99; */
+}
+
+
+body {
+    background-color: #FFF5E9;
+    font-size: 1.1em;
+    /* padding: 4px; */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    flex: 0 0 5em;
+    background-color: #FEDDB6;
+    text-align: center;
+    color: white;
+    max-height: 100px;
+    ;
+}
+
+.hobby {
+    padding-left: 20px;
+    margin: 10px;
+    color: #968571;
+}
+
+.home {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    transform: translate(600px, -100px);
+}
+
+/* 
+img {
+   
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+    shape-margin: 10px;
+    float: right;
+    shape-outside: url(../PHOTO/2.jpeg);
+    z-index: -1;
+    
+} */
+
+img {
+    float: left;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    margin-left: 0px;
+}
